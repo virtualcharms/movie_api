@@ -21,6 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth', include('rest_framework.urls', namespace='rest_framework')),
     path('', include('movie.urls')),
-    # path('', views.artist_list, name='artist_list'),
+    # path('', views.movie_list, name='movie_list'),
 
 ]

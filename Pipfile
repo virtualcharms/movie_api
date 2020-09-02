@@ -6,10 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "*"
 psycopg2-binary = "*"
 django-extensions = "*"
 djangorestframework = "*"
+gunicorn = "*"
+django-heroku = "*"
+Django = "*"
 
 [requires]
 python_version = "3.8"
